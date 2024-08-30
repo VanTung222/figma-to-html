@@ -509,12 +509,13 @@ a {
   line-height: 1.54;
 }
 
-/* ==========Feature============== */
+/* ==========Feature1============== */
 .feature {
   margin-top: 135px;
   padding: 65px 0;
 }
 
+.feature .bodyv2,
 .feature .body {
   display: flex;
   justify-content: space-between;
@@ -525,10 +526,9 @@ a {
   gap: 30px;
   width: 570px;
   height: 438px;
-
 }
 
-.feature .images img {
+.feature .body .images img {
   width: 270px;
   height: 405px;
   border-radius: 16px;
@@ -544,7 +544,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .feature .desc {
@@ -559,4 +558,24 @@ a {
   width: 137px;
   height: 50px;
   background-color: var(--primary-color);
+}
+
+/* ==========Feature 2============== */
+.feature-2nd {
+  margin-top: 70px;
+}
+
+.feature-2nd .body {
+  flex-direction: row-reverse;
+}
+
+.feature-2nd .content {
+  width: 49%;
+}
+
+.feature-2nd .images-2nd img {
+  width: 470px;
+  height: 440px;
+  border-radius: 16px;
+  object-fit: cover;
 }
